@@ -45,6 +45,7 @@ filter.addEventListener("complete", ev=>{
 
    if(window.notFound===true)
    {
+      // add Article not found svg
     filter.innerHTML = `
     Articles not found:
   
@@ -55,7 +56,7 @@ filter.addEventListener("complete", ev=>{
 
    }
    else{
-
+    let logo_image="python-icon.svg";
     let aa=[]
     article.content.split("\n").forEach(ev=>{
       if (ev !== "")
@@ -103,7 +104,11 @@ filter.addEventListener("complete", ev=>{
     <div class="code" id="codeEditor">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, est?
     </div>
+
     <div class="code" id="editor">
+=======
+    <div class="code example" id="editor">
+>>>>>>> 2546315951180268fca2551650228b0e502d98f9
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, est?
     </div>
 
@@ -188,7 +193,7 @@ window.relatedCOntainer=document.querySelector(".article-snippets-container")
       <div class="snippet-title-tag">
         <a href="article.html?uuid=${content.uuid}" class="title"
           ><h2>${content.title}</h2></a>
-        >
+        
         <div class="tags-container">
         ${content.tags.map(tag =>`<p class="tag">${tag}</p>`)}
         </div>

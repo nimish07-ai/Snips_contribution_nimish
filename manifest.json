@@ -1,0 +1,23 @@
+{
+    "name": "Snips - Code snippets",
+    "short_name": "Snips",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#ffc23c",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/Snips_contribution/Assests/Images/favicon-16x16.png",
+        "type": "image/png", "sizes": "16x16"
+      },
+      {
+        "src": "/Snips_contribution/Assests/Images/favicon-32x32.png",
+        "type": "image/png", "sizes": "32x32"
+      },
+      {
+        "src": "/Snips_contribution/Assests/Images/apple-touch-icon.png",
+        "type": "image/png", "sizes": "180x180"
+      }
+    ]
+  }
